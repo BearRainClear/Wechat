@@ -1,0 +1,9 @@
+<view class="user-content">
+<view class="user-contianer" style="background-image:url('{{userInfo.avatarUrl}}');">
+</view>
+<view class="userinfo">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+</view>
+

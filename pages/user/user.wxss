@@ -1,0 +1,34 @@
+/* pages/user/user.wxss */
+.user-content{
+  position: relative
+}
+.user-contianer{
+width: 100%;
+height: 200px;
+background-repeat:no-repeat;
+background-size:100% 100%; 
+-webkit-filter: blur(10px);
+-moz-filter: blur(10px);
+-o-filter: blur(10px);
+-ms-filter: blur(10px);
+filter: blur(10px);
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  left: 150px
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
